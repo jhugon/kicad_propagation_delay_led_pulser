@@ -30,7 +30,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|393700|1600200|5c2547d3-4a61-45cf-afb5-74efebe441ea|00000000-0000-0000-0000-000000000000",
+      "pin_to_pin|1854200|292100|e54d383b-e580-4fbf-a456-ae5e1bc7264d|b361e354-23d1-494d-9081-e5f7cae9de2b",
+      "power_pin_not_driven|431800|787400|55dcd4b1-3ec3-494e-849b-67d739100f19|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|431800|990600|2410cb12-10cd-45ed-a4e0-13df7fd75755|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
