@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/jhugon/kicad/propagation_delay_led_pulser/propagation_delay_led_pulser.kicad_sch</source>
-    <date>Mon 28 Feb 2022 01:14:49 PM CST</date>
+    <date>Mon 28 Feb 2022 02:03:59 PM CST</date>
     <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Propagation Delay LED Pulser</title>
-        <company>Hugon Labs</company>
-        <rev>v0.1</rev>
-        <date>2022-02-21</date>
+        <company>HugonLabs</company>
+        <rev>1.0</rev>
+        <date>2022-02-28</date>
         <source>propagation_delay_led_pulser.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -230,7 +230,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>43e0cf57-aac5-427c-996d-14e52f36da40 3a0a9998-2cda-4da2-9cf5-e90d754bd38f 15fcf661-f7ee-4981-92aa-29fa30316a60 343870d5-897c-47e2-b9f8-58a16ab20d2c e6e947ad-2e31-4ec1-a476-024e3502ba46 b2d7601a-144a-435f-91b7-b68686f88239 06d3b2d3-b83f-4582-8ce0-e0f3bf3a64cf</tstamps>
+      <tstamps>3a0a9998-2cda-4da2-9cf5-e90d754bd38f 43e0cf57-aac5-427c-996d-14e52f36da40 343870d5-897c-47e2-b9f8-58a16ab20d2c 15fcf661-f7ee-4981-92aa-29fa30316a60 e6e947ad-2e31-4ec1-a476-024e3502ba46 b2d7601a-144a-435f-91b7-b68686f88239 06d3b2d3-b83f-4582-8ce0-e0f3bf3a64cf</tstamps>
     </comp>
     <comp ref="U2">
       <value>ICM7555xB</value>

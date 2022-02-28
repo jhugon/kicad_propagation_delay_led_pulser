@@ -6,9 +6,9 @@
 
   (title_block
     (title "Propagation Delay LED Pulser")
-    (date "2022-02-21")
-    (rev "v0.1")
-    (company "Hugon Labs")
+    (date "2022-02-28")
+    (rev "1.0")
+    (company "HugonLabs")
   )
 
   (lib_symbols
