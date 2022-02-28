@@ -137,11 +137,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1854200|292100|ca5b6af8-ca05-4338-b852-b51f2b49b1db|02538207-54a8-4266-8d51-23871852b2ff",
-      "power_pin_not_driven|431800|787400|55dcd4b1-3ec3-494e-849b-67d739100f19|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|431800|990600|2410cb12-10cd-45ed-a4e0-13df7fd75755|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -367,7 +363,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.3048,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6.0
@@ -399,11 +395,13 @@
         "line_style": 0,
         "microvia_diameter": 0.508,
         "microvia_drill": 0.254,
-        "name": "Normal",
-        "nets": [],
+        "name": "Thin",
+        "nets": [
+          "/Timer_out"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
+        "track_width": 0.1524,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6.0

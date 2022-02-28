@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/jhugon/kicad/propagation_delay_led_pulser/propagation_delay_led_pulser.kicad_sch</source>
-    <date>Mon 28 Feb 2022 12:40:36 PM CST</date>
+    <date>Mon 28 Feb 2022 01:14:49 PM CST</date>
     <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -70,7 +70,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>05ba188a-0b9e-4e0b-80ef-0c2c65caf092</tstamps>
+      <tstamps>52581d88-1679-4e7a-a5a5-2812add71e96</tstamps>
     </comp>
     <comp ref="C4">
       <value>0.1u</value>
@@ -86,7 +86,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>52581d88-1679-4e7a-a5a5-2812add71e96</tstamps>
+      <tstamps>a312de14-abf2-4a98-a2e6-2cdd154c1f42</tstamps>
     </comp>
     <comp ref="C5">
       <value>0.1u</value>
@@ -102,25 +102,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a312de14-abf2-4a98-a2e6-2cdd154c1f42</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>0.1u</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
-      <fields>
-        <field name="Mfr">Kyocera AVX</field>
-        <field name="Part">06125C104KAT2A</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Mfr" value="Kyocera AVX"/>
-      <property name="Part" value="06125C104KAT2A"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
       <tstamps>f722116b-5e49-4401-8f1c-5aad01f0ac9f</tstamps>
     </comp>
-    <comp ref="C7">
+    <comp ref="C6">
       <value>1u</value>
       <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
@@ -168,7 +152,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7a290f36-43ab-4e69-8d6f-12c44ea8df23</tstamps>
     </comp>
-    <comp ref="J4">
+    <comp ref="J2">
       <value>Pulse Out</value>
       <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/18/1/amphs06501_1-2259276.pdf</datasheet>
@@ -233,6 +217,22 @@
       <tstamps>ac9d4e35-3ad7-49e4-9a75-45e3665d22e8</tstamps>
     </comp>
     <comp ref="U1">
+      <value>74AC14</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ac14.pdf</datasheet>
+      <fields>
+        <field name="Mfr">Texas Instruments</field>
+        <field name="Part">SN74AC14D</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="Mfr" value="Texas Instruments"/>
+      <property name="Part" value="SN74AC14D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43e0cf57-aac5-427c-996d-14e52f36da40 3a0a9998-2cda-4da2-9cf5-e90d754bd38f 15fcf661-f7ee-4981-92aa-29fa30316a60 343870d5-897c-47e2-b9f8-58a16ab20d2c e6e947ad-2e31-4ec1-a476-024e3502ba46 b2d7601a-144a-435f-91b7-b68686f88239 06d3b2d3-b83f-4582-8ce0-e0f3bf3a64cf</tstamps>
+    </comp>
+    <comp ref="U2">
       <value>ICM7555xB</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf</datasheet>
@@ -247,21 +247,6 @@
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a103e322-082e-4ef6-b79f-47cebf258ece</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>74AC14</value>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ac14.pdf</datasheet>
-      <fields>
-        <field name="Mfr">Texas Instruments</field>
-        <field name="Part">SN74AC14D</field>
-      </fields>
-      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
-      <property name="Mfr" value="Texas Instruments"/>
-      <property name="Part" value="SN74AC14D"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b2d7601a-144a-435f-91b7-b68686f88239 43e0cf57-aac5-427c-996d-14e52f36da40 3a0a9998-2cda-4da2-9cf5-e90d754bd38f 15fcf661-f7ee-4981-92aa-29fa30316a60 343870d5-897c-47e2-b9f8-58a16ab20d2c e6e947ad-2e31-4ec1-a476-024e3502ba46 06d3b2d3-b83f-4582-8ce0-e0f3bf3a64cf</tstamps>
     </comp>
     <comp ref="U3">
       <value>74AHC1G00</value>
@@ -464,48 +449,48 @@
   </libraries>
   <nets>
     <net code="1" name="/Inv1to2">
-      <node ref="U2" pin="2" pintype="output"/>
-      <node ref="U2" pin="3" pintype="input"/>
+      <node ref="U1" pin="2" pintype="output"/>
+      <node ref="U1" pin="3" pintype="input"/>
     </net>
     <net code="2" name="/Inv2to3">
-      <node ref="U2" pin="4" pintype="output"/>
-      <node ref="U2" pin="5" pintype="input"/>
+      <node ref="U1" pin="4" pintype="output"/>
+      <node ref="U1" pin="5" pintype="input"/>
     </net>
     <net code="3" name="/Inv3toNand">
-      <node ref="U2" pin="6" pintype="output"/>
+      <node ref="U1" pin="6" pintype="output"/>
       <node ref="U3" pin="2" pintype="input"/>
     </net>
     <net code="4" name="/LED_Anode">
-      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="5" name="/Pulser_out">
-      <node ref="U2" pin="11" pintype="input"/>
-      <node ref="U2" pin="13" pintype="input"/>
-      <node ref="U2" pin="9" pintype="input"/>
+      <node ref="U1" pin="11" pintype="input"/>
+      <node ref="U1" pin="13" pintype="input"/>
+      <node ref="U1" pin="9" pintype="input"/>
       <node ref="U3" pin="4" pintype="output"/>
     </net>
     <net code="6" name="/Timer_THR">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
-      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="THR" pintype="input"/>
     </net>
     <net code="7" name="/Timer_out">
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
-      <node ref="U2" pin="1" pintype="input"/>
+      <node ref="U1" pin="1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="Q" pintype="output"/>
       <node ref="U3" pin="1" pintype="input"/>
     </net>
     <net code="8" name="/drive_led_r">
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U2" pin="8" pintype="output"/>
+      <node ref="U1" pin="8" pintype="output"/>
     </net>
     <net code="9" name="/drive_pulse_out_r">
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U2" pin="10" pintype="output"/>
-      <node ref="U2" pin="12" pintype="output"/>
+      <node ref="U1" pin="10" pintype="output"/>
+      <node ref="U1" pin="12" pintype="output"/>
     </net>
     <net code="10" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -514,20 +499,19 @@
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="11" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(J4-Pad1)">
-      <node ref="J4" pin="1" pinfunction="In" pintype="passive"/>
+    <net code="12" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="13" name="VCC">
@@ -535,18 +519,17 @@
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
-      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U3" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="14" name="unconnected-(U1-Pad5)">
-      <node ref="U1" pin="5" pinfunction="CV" pintype="input+no_connect"/>
+    <net code="14" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="CV" pintype="input+no_connect"/>
     </net>
-    <net code="15" name="unconnected-(U1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="DIS" pintype="input+no_connect"/>
+    <net code="15" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="DIS" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
