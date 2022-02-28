@@ -1,5 +1,5 @@
 "Source:","/home/jhugon/kicad/propagation_delay_led_pulser/propagation_delay_led_pulser.kicad_sch"
-"Date:","Sun 27 Feb 2022 08:46:18 PM CST"
+"Date:","Mon 28 Feb 2022 12:40:36 PM CST"
 "Tool:","Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1"
 "Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
 "Component Count:","16"
@@ -21,7 +21,7 @@
 "","","R2","50R","Device:R_US","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf","Vishay","CRCW120649R9FKEAC"
 "","","R3","50R","Device:R_US","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf","Vishay","CRCW120649R9FKEAC"
 "","","U1","ICM7555xB","Timer:ICM7555xB","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf","Maxim","ICM7555ESA+"
-"","","U2","74AC14","74xx:74HC14","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","https://www.ti.com/lit/ds/symlink/sn74ac14.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1645742488592&ref_url=https%253A%252F%252Fwww.mouser.com%252F","Texas Instruments","SN74AC14D"
+"","","U2","74AC14","74xx:74HC14","","https://www.ti.com/lit/ds/symlink/sn74ac14.pdf","Texas Instruments","SN74AC14D"
 "","","U3","74AHC1G00","74xGxx:74AHC1G00","Package_TO_SOT_SMD:SOT-23-5_HandSoldering","http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf","Texas Instruments","SN74AHC1G00DBV"
 
 
@@ -39,5 +39,5 @@
 "8","1","R1","72K","Device:R_US","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf","Vishay","CRCW120671K5FKEA"
 "9","2","R2, R3","50R","Device:R_US","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf","Vishay","CRCW120649R9FKEAC"
 "10","1","U1","ICM7555xB","Timer:ICM7555xB","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf","Maxim","ICM7555ESA+"
-"11","1","U2","74AC14","74xx:74HC14","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","https://www.ti.com/lit/ds/symlink/sn74ac14.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1645742488592&ref_url=https%253A%252F%252Fwww.mouser.com%252F","Texas Instruments","SN74AC14D"
+"11","1","U2","74AC14","74xx:74HC14","","https://www.ti.com/lit/ds/symlink/sn74ac14.pdf","Texas Instruments","SN74AC14D"
 "12","1","U3","74AHC1G00","74xGxx:74AHC1G00","Package_TO_SOT_SMD:SOT-23-5_HandSoldering","http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf","Texas Instruments","SN74AHC1G00DBV"
