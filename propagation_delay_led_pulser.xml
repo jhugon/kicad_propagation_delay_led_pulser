@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/jhugon/kicad/propagation_delay_led_pulser/propagation_delay_led_pulser.kicad_sch</source>
-    <date>Mon 28 Feb 2022 02:03:59 PM CST</date>
-    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1</tool>
+    <date>Tue 12 Apr 2022 01:35:03 PM CDT</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Propagation Delay LED Pulser</title>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>22u</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
       <fields>
         <field name="Mfr">Samsung</field>
@@ -58,15 +58,15 @@
     </comp>
     <comp ref="C3">
       <value>0.1u</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
       <fields>
-        <field name="Mfr">Kyocera AVX</field>
-        <field name="Part">06125C104KAT2A</field>
+        <field name="Mfr">Samsung</field>
+        <field name="Part">CL31B104KBCNNND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Mfr" value="Kyocera AVX"/>
-      <property name="Part" value="06125C104KAT2A"/>
+      <property name="Mfr" value="Samsung"/>
+      <property name="Part" value="CL31B104KBCNNND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -74,15 +74,15 @@
     </comp>
     <comp ref="C4">
       <value>0.1u</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
       <fields>
-        <field name="Mfr">Kyocera AVX</field>
-        <field name="Part">06125C104KAT2A</field>
+        <field name="Mfr">Samsung</field>
+        <field name="Part">CL31B104KBCNNND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Mfr" value="Kyocera AVX"/>
-      <property name="Part" value="06125C104KAT2A"/>
+      <property name="Mfr" value="Samsung"/>
+      <property name="Part" value="CL31B104KBCNNND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,15 +90,15 @@
     </comp>
     <comp ref="C5">
       <value>0.1u</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
       <fields>
-        <field name="Mfr">Kyocera AVX</field>
-        <field name="Part">06125C104KAT2A</field>
+        <field name="Mfr">Samsung</field>
+        <field name="Part">CL31B104KBCNNND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Mfr" value="Kyocera AVX"/>
-      <property name="Part" value="06125C104KAT2A"/>
+      <property name="Mfr" value="Samsung"/>
+      <property name="Part" value="CL31B104KBCNNND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,15 +106,15 @@
     </comp>
     <comp ref="C6">
       <value>1u</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/40/AVXCS06407_1-2538087.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
       <fields>
-        <field name="Mfr">Kyocera AVX</field>
-        <field name="Part">0612YC105KAT2A</field>
+        <field name="Mfr">Samsung</field>
+        <field name="Part">CL31B105KBHNFNE</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Mfr" value="Kyocera AVX"/>
-      <property name="Part" value="0612YC105KAT2A"/>
+      <property name="Mfr" value="Samsung"/>
+      <property name="Part" value="CL31B105KBHNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="propagation_delay_led_pulser.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
