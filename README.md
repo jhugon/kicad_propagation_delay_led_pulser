@@ -4,7 +4,8 @@ This KiCad board pulses an LED with a very short pulse. The pulse width is
 defined by the propagation delay of 3 inverters.
 
 Main power supply: 5 V
-LED bias: 0-1.4 V
+
+LED bias: 0-1.4 V, lower is brighter
 
 ## Changelog
 
@@ -48,3 +49,7 @@ Pulse measurement of coax output into high-Z scope input:
 - Baseline -90 mV
 - Pulse 4.6 V
 - Ringing ~ 10%, damped out around 20 ns after pulse fall
+
+LED pulse measurements return a signal as expected at 9.36 kHz. The signal is
+controllable with the bias voltage. Noise seems high, but that may be something
+else
